@@ -1483,7 +1483,7 @@ void simplify_path()
 
   int total_angle = 0;
   int i;
-  for (i = 1; i <= 3; i--)
+  for (i =< 3; i >= 1; i--)
   {
     switch (path[path_length - i])
     {
